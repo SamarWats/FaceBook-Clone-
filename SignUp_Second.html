@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Page</title>
+    <link rel="stylesheet" href="./signup_first.html">
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+      }
+      #heading {
+        text-decoration: none;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: rgb(49, 114, 225);
+        font-size: 400%;
+        text-align: center;
+        font-weight: bold;
+        padding: 21px;
+        margin: 8px 0 10px 610px;
+      }
+
+      header {
+        width: 100%;
+        display: flex;
+        background-color: #3b5998;
+        background-color:aliceblue;
+        box-shadow: 0 10px 18px 5px cornflowerblue;
+        border-bottom: 1px solid #133783;
+      }
+
+      .container {
+        width: 550px;
+        height: 450px;
+        border: 1px solid grey;
+        margin: 50px 500px;
+        padding: 10px;
+        box-shadow: 7.5px 5px 15px 1px rgb(69, 157, 234);
+        text-align: center;
+        background-color: rgb(218, 227, 239);
+      }
+      .container h1 {
+        font-family: sans-serif;
+        color: rgb(90, 143, 243);
+      }
+
+      input[type="email"] {
+        padding: 10px;
+        margin-top: 18px;
+        margin-right: 6px;
+        width: 80%;
+        line-height: 1.5;
+        border: 0.5px solid grey;
+        font-size: 18px;
+        text-align: center;
+      }
+
+      input[type="number"] {
+        padding: 10px;
+        margin-top: 18px;
+        margin-right: 6px;
+        width: 80%;
+        line-height: 1.5;
+        border: 0.5px solid grey;
+        font-size: 18px;
+        text-align: center;
+      }
+
+      .input-group {
+        padding: 40px;
+      }
+
+      .box{
+        margin: 2px 0 0 0;
+      }
+
+      #btn{
+        margin: 22px;
+        width: 32%;
+        height: 35px;
+        cursor: pointer;
+        font-size: 19px;
+        background-color: #69a74e;
+        box-shadow: inset 0 1px 1px #a4e388;
+        background-image: linear-gradient(#67ae55, #578843);
+        border: 1px solid ;
+        border-radius: 6px;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#" id="heading">facebook</a>
+    </header>
+
+    <div class="container">
+      <main>
+        <form action="/">
+          <h1>Create Account</h1>
+          <div class="box">
+            <input type="email" name="name" class="input-group" placeholder="Enter a valid Email-ID" required /><br />
+            <input type="number" name="name" class="input-group" placeholder="Enter Phone Number" required />
+          </div>
+            <!-- <hr> -->
+          </form>
+          <input type="submit" value="Next" id="btn"><br>
+          <!-- <br> -->
+          <hr>
+          <div class="terms">
+            By clicking the Sign Up, you agree to our <a href="#">Terms</a>,
+            <a href="#">Data Policy</a> and <a href="#">Cookie Policy.</a> You
+            may recieve SMS notification from us and can opt out at any time.
+          </div>
+          <a href="./signup_first.html"><input type="submit" value="Previous" id="btn"></a>
+          <!-- <br> -->
+        </main>
+      </div>
+  </body>
+</html>
